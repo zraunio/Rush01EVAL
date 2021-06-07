@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: zraunio <zraunio@student.hive.fi>          +#+  +:+       +#+         #
+#    By: zraunio <zraunio@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/03 11:26:38 by zraunio           #+#    #+#              #
-#    Updated: 2021/06/06 15:17:36 by zraunio          ###   ########.fr        #
+#    Updated: 2021/06/07 13:04:39 by zraunio          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,4 +28,3 @@ clean:
 	@rm $(NAME)
 		@echo "\\n\033[32;1mEXECUTABLE DELETED\033[0m \\n"
 re: clean all
-

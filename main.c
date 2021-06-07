@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zraunio <zraunio@student.hive.fi>          +#+  +:+       +#+        */
+/*   By: zraunio <zraunio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/06 11:04:56 by zraunio           #+#    #+#             */
-/*   Updated: 2021/06/06 11:30:08 by zraunio          ###   ########.fr       */
+/*   Updated: 2021/06/07 13:34:26 by zraunio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@ int	checks(char **av);
 
 int	main(int argc, char **argv)
 {
-	if (argc > 1 && argc < 11)
+	int i = 1;
+	if (argc > 1 && argc < 10)
 	{
 		if (!checks(argv))
 			return (-1);
